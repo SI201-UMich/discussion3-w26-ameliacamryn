@@ -31,6 +31,7 @@ class Rectangle():
 
     # YOUR CODE HERE
     def __eq__(self,other):
+        return self.width == other.width and self.height == other.height
 
 
     
